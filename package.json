@@ -1,0 +1,37 @@
+{
+  "name": "any",
+  "version": "1.0.0",
+  "description": "Un bot de Discord en español",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon -e ts --exec \"npm run build && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Undead34/Any.git"
+  },
+  "keywords": [
+    "Bot",
+    "Discord",
+    "OpenSource",
+    "TypeScript",
+    "JavaScript"
+  ],
+  "author": "Undead34 <maizogabriel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Undead34/Any/issues"
+  },
+  "homepage": "https://github.com/Undead34/Any#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "nodemon": "^2.0.20"
+  }
+}
